@@ -1,0 +1,15 @@
+inc_file_path: "/usr/local/src/puppet-config/templates" # Absolute path to the puppet template files directory (No need to change it)
+tz: "America/Sao_Paulo" # Timezone
+user: "vagrant" # User to create
+password: "vagrant" # The user's password
+project: "wordpress" # Django project folder or the name when you run django-admin.py startproject <PROJECT_NAME>
+domain_name: "localhost" # Used in nginx, uwsgi and virtualenv directory
+db_name: "wordpress" # PostgreSQL database name to create
+db_user: "wordpress" # PostgreSQL username to create
+db_password: "wordpress" # PostgreSQL password for user
+default_locale: "pt_BR.UTF-8"
+locales: ['pt_BR.UTF-8 UTF-8', 'en_US.UTF-8 UTF-8']
+port: '9000'
+replication_db_user: "replication"
+replication_db_password: "123456"
+replication_db_host: "localhost"

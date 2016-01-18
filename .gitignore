@@ -15,4 +15,15 @@ wp-content/plugins/hello.php
 
 /readme.html
 /license.txt
+.idea
+.vagrant
+wp
+vendor
 
+# From wordpress-skeleton
+/uploads
+/local-config.php
+/sql-dump-*.sql
+/db-sync
+/content/upgrade/
+.DS_Store
